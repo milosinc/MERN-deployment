@@ -1,0 +1,165 @@
+:root{
+    --bg: ghostwhite;
+    --main: rgb(142, 152, 243);
+    --accent: rgb(255, 176, 29);
+    --comp: rgb(99, 107, 222);
+    --main2: rgb(194, 189, 249);
+    --dark: rgb(25, 32, 63);
+}
+
+*{
+    background-color:var(--bg);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    border-radius:5px;
+}
+
+.likes{
+    background-color: transparent;
+    margin: auto;
+    padding:10px;
+    display:flex;
+    text-align: center;
+    background-color: var(--main2);
+    border-radius:8px;
+    font-size:1.2em;
+    flex-direction: column;
+}
+
+.likes > button {
+    margin:10px;
+    width:75px;
+}
+
+h1, h3{
+    text-align:center;
+    padding: 0;
+    background-color: transparent;
+    color:var(--dark);
+}
+.petShelter {
+    box-shadow: 7px 7px 0px rgba(132, 125, 215, 0.486);
+    padding:10px 20px;
+    width:600px;
+    margin:30px auto;
+    background-color:var(--main);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.petViewer {
+    box-shadow: 7px 7px 0px rgba(132, 125, 215, 0.486);
+    width: 800px;
+    margin:auto;
+    padding:25px;
+    background-color:var(--main);
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.petList {
+    box-shadow: 7px 7px 0px rgba(132, 125, 215, 0.486);
+    width: 800px;
+    margin:auto;
+    padding:20px;
+    background-color:var(--main);
+}
+
+.btns{
+    width: 45%;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.pet, .item {
+    background-color:transparent;
+    padding:10px;
+    min-width: 200px;
+    border-bottom: 2px solid var(--comp);
+    border-radius: 0;
+    margin:10px;
+}
+.pet{
+    font-size: 1.5em;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.info {
+    background-color: transparent;
+    padding:10px;
+}
+
+label, .label {
+    color:rgb(36, 31, 27);
+    background-color:var(--main2);
+    padding:5px;
+    font-size: 1.4em;
+}
+
+input {
+    border:none;
+    outline:none;
+    padding:5px;
+    background-color: var(--bg);
+    width: 580px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 0px rgba(65, 81, 129, 0.308);
+}
+
+p {
+    background-color: transparent;
+}
+form {
+    margin:auto;
+    width:600px;
+    padding:20px;
+    background-color:var(--main);
+    display:flex;
+    box-shadow: 7px 7px 0px rgba(132, 125, 215, 0.486);
+    flex-direction: column;
+}
+
+button {
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color:var(--comp);
+    color:var(--dark);
+    transition: all 0.1s;
+    max-width:100px;
+    padding: 10px;
+}
+
+.smallNav{
+    padding:10px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: transparent;
+    
+}
+
+.smallNav > button {
+    padding:10px;
+}
+
+button:hover {
+    background-color:var(--accent);
+}
+
+.typeLabel{
+    margin: 5px 45px;
+    font-size: 0.8em;
+    font-style: italic;
+    background-color: transparent;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
